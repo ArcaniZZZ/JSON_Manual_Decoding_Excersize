@@ -56,8 +56,7 @@ struct User: Codable {
         nat = value["nat"] as? String
     }
     
-    static func fetchUsers(data: Any) -> [User]? {
-        guard let data = data as? [String: Any] else { return [] }
+    static func fetchUsers(data: [String: Any]) -> [User]? {
         guard let results = data["results"] as? [[String: Any]] else { return [] }
         return results.compactMap { User(value: $0) }
     }

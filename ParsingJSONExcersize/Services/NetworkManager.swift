@@ -32,11 +32,11 @@ class NetworkManager {
                 completion(.failure(.cannotDecode))
                 return }
             
-            guard let results = User.fetchUsers(data: dataAny) else {
-                print("BAD BAD NOTHING WORKS")
-                return }
+            guard let results = dataAny as? [String: Any] else { return }
+                    
+            guard let users = User.fetchUsers(data: results) else { return }
             
-            completion(.success(results))
+            completion(.success((users)))
         }.resume()
     }
     private init () {}
