@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA64E3102709CCB800B22B9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA64E30F2709CCB800B22B9F /* ViewController.swift */; };
+		EA64E3122709DA3800B22B9F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA64E3112709DA3800B22B9F /* TableViewController.swift */; };
 		EA824EEE2708EAB800600209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA824EED2708EAB800600209 /* AppDelegate.swift */; };
 		EA824EF02708EAB800600209 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA824EEF2708EAB800600209 /* SceneDelegate.swift */; };
 		EA824EF52708EAB800600209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA824EF32708EAB800600209 /* Main.storyboard */; };
@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EA64E30F2709CCB800B22B9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA64E3112709DA3800B22B9F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		EA824EEA2708EAB800600209 /* ParsingJSONExcersize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParsingJSONExcersize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA824EED2708EAB800600209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA824EEF2708EAB800600209 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 		EA824F0927090A0E00600209 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				EA64E30F2709CCB800B22B9F /* ViewController.swift */,
+				EA64E3112709DA3800B22B9F /* TableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -184,10 +184,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA64E3102709CCB800B22B9F /* ViewController.swift in Sources */,
 				EA824F022708EACB00600209 /* User.swift in Sources */,
 				EA824F052708FDDF00600209 /* NetworkManager.swift in Sources */,
 				EA824EEE2708EAB800600209 /* AppDelegate.swift in Sources */,
+				EA64E3122709DA3800B22B9F /* TableViewController.swift in Sources */,
 				EA824EF02708EAB800600209 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
